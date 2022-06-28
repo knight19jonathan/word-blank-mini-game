@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Letter Guess Game</title>
+</head>
+<body>
+    <header>
+        <h1>Let's Play: Guess the Right Letter to Complete Word</h1>
+    </header>
+    <main>
+        <div>
+            <button id="startbutton">
+                Start Game
+            </button>
+        </div>
+        <section id="game">
+            <form action="" id="gamefield">
+                <h2>Press a letter to guess the word</h2>
+                <p>Find the Missing Letters: |<span id="guess">|</span>|</p>
+
+            </form> 
+        </section>
+        <aside>
+            <div id="timer">
+                <h2>Time Left: <span id="timeleft"> 10 seconds</span></h2>
+
+            </div>
+            <div id="wins&losses">
+                <h2>Wins: <span id="winSpan">0</span> </h2>
+                <h2>Losses: <span id="lossSpan">0</span> </h2>
+
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
